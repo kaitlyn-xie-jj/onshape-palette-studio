@@ -57,3 +57,16 @@ The public `GET assembly definition` endpoint provides occurrence and source IDs
 - [Onshape OAuth2](https://onshape-public.github.io/docs/auth/oauth/)
 - [Onshape app extensions](https://onshape-public.github.io/docs/app-dev/extensions/)
 - [Appearance editor](https://cad.onshape.com/help/Content/PartStudio/customizing_appearances.htm)
+
+## FRC 6381 Intake smoke test (2026-11-07)
+
+A published FRC Intake document is now the first concrete M2 test target. See [the test record](../docs/intake-smoke-test-2026-11-07.md). This target is **not yet confirmed through a live Onshape API read** because an authorized OAuth session is required. Offline test counts are from a deliberately labelled synthetic fixture.
+
+```bash
+# At repository root:
+node --test assembly-app/test/*.test.mjs
+node assembly-app/tools/intake-smoke.mjs --fixture assembly-app/fixtures/assembly.json --theme MONOCHROME
+node assembly-app/tools/intake-smoke.mjs  # fails closed with BLOCKED_AUTH until OAuth is configured
+```
+
+The CLI also supports `--live` using a private `ONSHAPE_ACCESS_TOKEN`, but the existing OAuth-enabled web UI is preferable for normal users. Neither mode modifies source parts or assembly instances.
