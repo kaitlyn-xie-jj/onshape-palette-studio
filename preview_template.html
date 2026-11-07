@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Palette Studio — Onshape 配色预览</title>
+<style>
+:root { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; color: #e9eef7; background: #0b111b; }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; background: radial-gradient(ellipse at 4% 0%, #1f3652 0%, transparent 40%), #0b111b; }
+.wrapper { max-width: 1120px; margin: auto; padding: 42px 24px 80px; }
+header { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; margin-bottom: 36px; }
+h1 { font-size: clamp(32px, 5vw, 54px); letter-spacing: -2px; margin: 4px 0 10px; font-weight: 750; }
+.eyebrow { color: #70b8ee; font-size: 12px; letter-spacing: .17em; font-weight: 750; }
+.lead { color: #adbfd1; max-width: 650px; line-height: 1.7; margin: 0; }
+.tag { border: 1px solid #375572; border-radius: 30px; padding: 10px 14px; font-size: 12px; color: #b7cde4; white-space: nowrap; }
+.section-title { font-size: 15px; font-weight: 700; color: #dce9f8; margin: 28px 0 14px; }
+.theme-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 11px; }
+.theme { border: 1px solid #2b405a; background: #111d2d; border-radius: 14px; padding: 13px; color: #d5e3f3; text-align: left; cursor: pointer; transition: border-color .15s ease, background .15s ease; }
+.theme:hover { border-color: #6f9ccb; } .theme.active { border-color: #80c8fb; box-shadow: inset 0 0 0 1px #80c8fb; background: #16283c; }
+.theme-name { font-size: 13px; font-weight: 660; display: block; margin-bottom: 11px; }
+.mini-colors { display: flex; overflow: hidden; border-radius: 5px; height: 24px; }
+.mini-colors span { flex: 1; }
+.toolbar { display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-end; margin: 18px 0; }
+.control { display: flex; flex-direction: column; gap: 7px; font-size: 12px; color: #9db0c5; }
+select, button, input { font: inherit; }
+select, .action { background: #162539; color: #eaf3ff; border: 1px solid #37516c; border-radius: 9px; padding: 10px 13px; }
+.action { cursor: pointer; } .action:hover { background: #233a55; }
+.action.primary { background: #b6dfff; color: #0c243b; border-color: #b6dfff; font-weight: 700; }
+canvas { display: none; }
+.panel { background: #101b2a; border: 1px solid #293c52; border-radius: 17px; overflow: hidden; }
+.panel-heading { display: flex; justify-content: space-between; align-items: center; padding: 19px 22px; border-bottom: 1px solid #293c52; gap: 10px; }
+.panel-heading h2 { margin: 0; font-size: 17px; }
+.note { font-size: 12px; color: #90a3b9; }
+.parts-grid { display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); gap: 13px; padding: 24px; }
+.part { min-width: 0; } .sample { height: 94px; border-radius: 13px; position: relative; overflow: hidden; box-shadow: inset 0 2px 14px #00000022; }
+.sample::before { content: ""; position: absolute; left: 18%; top: 17%; width: 55%; height: 47%; border-radius: 18% 8% 18% 8%; transform: skewY(-10deg) rotate(12deg); background: linear-gradient(135deg,#ffffff9d,transparent 48%),#00000022; box-shadow: 10px 12px 1px #00000035; }
+.sample::after { content: ""; position: absolute; left: 22%; bottom: 14%; height: 8px; right: 18%; border-radius: 100%; background: #0000002d; filter: blur(6px); }
+.part small { display: flex; justify-content: space-between; gap: 4px; color: #91a6bc; margin-top: 8px; font-size: 11px; }
+.part code { color: #d8e5f7; }
+.swatches { padding: 0 24px 24px; display: flex; gap: 7px; flex-wrap: wrap; }
+.swatch { width: 47px; height: 47px; border: 2px solid #ffffff55; border-radius: 9px; cursor: pointer; }
+.help { border: 1px solid #30445a; background: #142236; padding: 17px 20px; margin-top: 18px; border-radius: 12px; color: #b6cce1; line-height: 1.8; font-size: 13px; }
+.help strong { color: #fff; }
+.footer { color: #8194a8; font-size: 12px; margin-top: 15px; }
+@media(max-width:900px) { .theme-grid { grid-template-columns: repeat(3,1fr); } .parts-grid { grid-template-columns: repeat(4,1fr); } }
+@media(max-width:600px) { header { display: block; } .tag { display: inline-block; margin-top: 14px; } .theme-grid { grid-template-columns: repeat(2,1fr); } .parts-grid { grid-template-columns: repeat(3,1fr); padding: 15px; gap: 10px; } .sample { height: 68px; } .swatches { padding: 0 15px 18px; } .panel-heading { padding: 16px; } }
+</style>
+</head>
+<body><main class="wrapper">
+<header><div><div class="eyebrow">ONSHAPE CUSTOM FEATURE • PALETTE STUDIO V0.1</div><h1>Make parts feel <em>cohesive.</em></h1><p class="lead">为 Onshape 零件生成协调但有区别的颜色。选择色系与排列方式，然后在原生 FeatureScript 工具中使用相同设置。</p></div><div class="tag">12 THEMES · 144 COLORS</div></header>
+<div class="section-title">01 / 选择色系</div><div class="theme-grid" id="themes"></div>
+<div class="section-title">02 / 改变组合</div>
+<div class="toolbar">
+<label class="control">排列方式<select id="arrangement"><option value="GRADIENT">Soft gradient / 渐变</option><option value="ALTERNATE">Alternating tones / 交替深浅</option><option value="SPREAD">Spread out tones / 跨度更大</option><option value="REVERSE">Reverse gradient / 反向</option></select></label>
+<label class="control">Variation<select id="variation"></select></label>
+<button class="action primary" id="next">生成新组合 ↻</button>
+<button class="action" id="export">导出当前色表 CSV</button>
+</div>
+<div class="panel"><div class="panel-heading"><h2 id="heading">Assembly color preview</h2><span class="note">点击色卡复制 HEX</span></div><div class="parts-grid" id="parts"></div><div class="swatches" id="swatches"></div></div>
+<div class="help"><strong>实际应用到 Onshape：</strong>在 Part Studio 添加随包附带的 <code>palette_studio.fs</code> 作为自定义 Feature。选择同一 Palette、Arrangement、Variation 后确认，零件即批量上色；这些颜色会继承到引用它们的 Assembly 中。本页面只负责预览，不会连接或修改 Onshape 文档。</div>
+<div class="footer">Generated palettes are deterministic. Changing source part appearances does not alter CAD geometry, mates, or material properties. Existing face-level appearance may override a part-level color.</div>
+</main>
+<script id="palette-data" type="application/json">__PALETTE_DATA__</script>
+<script>
+const palettes = JSON.parse(document.getElementById('palette-data').textContent);
+const variants = [0,1,3,5,7,9,10,11];
+const state = { theme: 'OCEAN', arrangement: 'GRADIENT', variation: 0 };
+const names = Object.keys(palettes);
+function indexFor(i) {const shift = variants[state.variation], n=12; switch(state.arrangement){case 'ALTERNATE':return (i*5+shift)%n; case 'SPREAD':return (i*7+shift)%n; case 'REVERSE':return n-1-((i+shift)%n); default:return (i+shift)%n;}}
+function renderThemes() {document.getElementById('themes').innerHTML=names.map(k=>`<button class="theme ${k===state.theme?'active':''}" data-theme="${k}" aria-pressed="${k===state.theme}"><span class="theme-name">${palettes[k].name}</span><span class="mini-colors">${palettes[k].colors.slice(0,12).map(c=>`<span style="background:${c}"></span>`).join('')}</span></button>`).join('');}
+function render(){renderThemes(); const p=palettes[state.theme]; document.getElementById('heading').textContent=p.name+' · 12 parts'; const colors=Array.from({length:12},(_,i)=>p.colors[indexFor(i)]);document.getElementById('parts').innerHTML=colors.map((c,i)=>`<div class="part"><div class="sample" style="background:${c}"></div><small><span>Part ${String(i+1).padStart(2,'0')}</span><code>${c}</code></small></div>`).join('');document.getElementById('swatches').innerHTML=colors.map(c=>`<button title="Copy ${c}" class="swatch" data-hex="${c}" style="background:${c}" aria-label="Copy ${c}"></button>`).join('');document.getElementById('variation').value=String(state.variation);}
+for(let i=0;i<8;i++){let o=document.createElement('option');o.value=String(i);o.textContent='Variation '+(i+1);document.getElementById('variation').append(o);}
+document.getElementById('themes').addEventListener('click',e=>{const t=e.target.closest('[data-theme]');if(t){state.theme=t.dataset.theme;render();}});
+document.getElementById('swatches').addEventListener('click',async e=>{const t=e.target.closest('[data-hex]');if(!t)return;const v=t.dataset.hex;try{await navigator.clipboard.writeText(v);t.title='已复制 '+v;}catch(e){prompt('复制颜色代码',v);}});
+document.getElementById('arrangement').addEventListener('change',e=>{state.arrangement=e.target.value;render();});
+document.getElementById('variation').addEventListener('change',e=>{state.variation=Number(e.target.value);render();});
+document.getElementById('next').addEventListener('click',()=>{state.variation=(state.variation+1)%8;render();});
+document.getElementById('export').addEventListener('click',()=>{let rows=['Part,Hex,Palette,Arrangement,Variation'];for(let i=0;i<12;i++)rows.push(`Part ${i+1},${palettes[state.theme].colors[indexFor(i)]},${state.theme},${state.arrangement},${state.variation+1}`); const blob=new Blob([rows.join('\n')+'\n'],{type:'text/csv;charset=utf-8'});const a=document.createElement('a');const url=URL.createObjectURL(blob);a.href=url;a.download=`palette-${state.theme.toLowerCase()}-v${state.variation+1}.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
+render();
+</script></body></html>
