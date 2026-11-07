@@ -1,0 +1,455 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1705" viewBox="0 0 1320 1705">
+<rect width="1320" height="1705" fill="#0b111b"/>
+<text x="32" y="52" font-size="30" font-family="Arial, sans-serif" font-weight="bold" fill="#f2f5fa">Onshape Palette Studio · curated robot palettes</text>
+<text x="32" y="82" font-size="17" font-family="Arial, sans-serif" fill="#aebed0">30 palettes · 360 colors · FRC / industrial / original</text>
+<rect x="30" y="107" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="132" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Black Gold / 冠军黑金</text>
+<text x="530" y="132" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">FRC</text>
+<rect x="43" y="145" width="46" height="38" rx="3" fill="#0F1216"/>
+<rect x="91" y="145" width="46" height="38" rx="3" fill="#1D2228"/>
+<rect x="139" y="145" width="46" height="38" rx="3" fill="#B58D48"/>
+<rect x="187" y="145" width="46" height="38" rx="3" fill="#D1AE69"/>
+<rect x="235" y="145" width="46" height="38" rx="3" fill="#292F35"/>
+<rect x="283" y="145" width="46" height="38" rx="3" fill="#9E7937"/>
+<rect x="331" y="145" width="46" height="38" rx="3" fill="#17191D"/>
+<rect x="379" y="145" width="46" height="38" rx="3" fill="#E0C68B"/>
+<rect x="427" y="145" width="46" height="38" rx="3" fill="#40464A"/>
+<rect x="475" y="145" width="46" height="38" rx="3" fill="#BFA26C"/>
+<rect x="523" y="145" width="46" height="38" rx="3" fill="#24282F"/>
+<rect x="571" y="145" width="46" height="38" rx="3" fill="#C9B06E"/>
+<rect x="660" y="107" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="132" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Black Red / 竞速红黑</text>
+<text x="1160" y="132" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">FRC</text>
+<rect x="673" y="145" width="46" height="38" rx="3" fill="#111417"/>
+<rect x="721" y="145" width="46" height="38" rx="3" fill="#23272C"/>
+<rect x="769" y="145" width="46" height="38" rx="3" fill="#AB202B"/>
+<rect x="817" y="145" width="46" height="38" rx="3" fill="#D23940"/>
+<rect x="865" y="145" width="46" height="38" rx="3" fill="#303841"/>
+<rect x="913" y="145" width="46" height="38" rx="3" fill="#F1E8E2"/>
+<rect x="961" y="145" width="46" height="38" rx="3" fill="#151B21"/>
+<rect x="1009" y="145" width="46" height="38" rx="3" fill="#841D28"/>
+<rect x="1057" y="145" width="46" height="38" rx="3" fill="#9BABB3"/>
+<rect x="1105" y="145" width="46" height="38" rx="3" fill="#B72D37"/>
+<rect x="1153" y="145" width="46" height="38" rx="3" fill="#42474E"/>
+<rect x="1201" y="145" width="46" height="38" rx="3" fill="#6B1C25"/>
+<rect x="30" y="211" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="236" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Blue Aluminum / 蓝银战队</text>
+<text x="530" y="236" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">FRC</text>
+<rect x="43" y="249" width="46" height="38" rx="3" fill="#D3DADF"/>
+<rect x="91" y="249" width="46" height="38" rx="3" fill="#164A87"/>
+<rect x="139" y="249" width="46" height="38" rx="3" fill="#2566A3"/>
+<rect x="187" y="249" width="46" height="38" rx="3" fill="#1B2835"/>
+<rect x="235" y="249" width="46" height="38" rx="3" fill="#F1F3F1"/>
+<rect x="283" y="249" width="46" height="38" rx="3" fill="#6F91A9"/>
+<rect x="331" y="249" width="46" height="38" rx="3" fill="#AAB4BE"/>
+<rect x="379" y="249" width="46" height="38" rx="3" fill="#0E366A"/>
+<rect x="427" y="249" width="46" height="38" rx="3" fill="#C4CDD3"/>
+<rect x="475" y="249" width="46" height="38" rx="3" fill="#437DAA"/>
+<rect x="523" y="249" width="46" height="38" rx="3" fill="#383E45"/>
+<rect x="571" y="249" width="46" height="38" rx="3" fill="#E5E9EB"/>
+<rect x="660" y="211" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="236" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Ivory Gold / 象牙白金</text>
+<text x="1160" y="236" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">FRC</text>
+<rect x="673" y="249" width="46" height="38" rx="3" fill="#F7F5EE"/>
+<rect x="721" y="249" width="46" height="38" rx="3" fill="#E8DDC4"/>
+<rect x="769" y="249" width="46" height="38" rx="3" fill="#C7A969"/>
+<rect x="817" y="249" width="46" height="38" rx="3" fill="#A57F35"/>
+<rect x="865" y="249" width="46" height="38" rx="3" fill="#F0E8D6"/>
+<rect x="913" y="249" width="46" height="38" rx="3" fill="#25272B"/>
+<rect x="961" y="249" width="46" height="38" rx="3" fill="#FAF8F0"/>
+<rect x="1009" y="249" width="46" height="38" rx="3" fill="#D4BC86"/>
+<rect x="1057" y="249" width="46" height="38" rx="3" fill="#99825F"/>
+<rect x="1105" y="249" width="46" height="38" rx="3" fill="#ECEAE5"/>
+<rect x="1153" y="249" width="46" height="38" rx="3" fill="#5D5851"/>
+<rect x="1201" y="249" width="46" height="38" rx="3" fill="#BCA16D"/>
+<rect x="30" y="315" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="340" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Monochrome / 经典黑白</text>
+<text x="530" y="340" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">FRC</text>
+<rect x="43" y="353" width="46" height="38" rx="3" fill="#0F1114"/>
+<rect x="91" y="353" width="46" height="38" rx="3" fill="#1D2126"/>
+<rect x="139" y="353" width="46" height="38" rx="3" fill="#343A40"/>
+<rect x="187" y="353" width="46" height="38" rx="3" fill="#EDECE8"/>
+<rect x="235" y="353" width="46" height="38" rx="3" fill="#FFFFFF"/>
+<rect x="283" y="353" width="46" height="38" rx="3" fill="#C7CDD0"/>
+<rect x="331" y="353" width="46" height="38" rx="3" fill="#151A20"/>
+<rect x="379" y="353" width="46" height="38" rx="3" fill="#F7F7F4"/>
+<rect x="427" y="353" width="46" height="38" rx="3" fill="#64707A"/>
+<rect x="475" y="353" width="46" height="38" rx="3" fill="#ABB1B4"/>
+<rect x="523" y="353" width="46" height="38" rx="3" fill="#252C32"/>
+<rect x="571" y="353" width="46" height="38" rx="3" fill="#D9DDE0"/>
+<rect x="660" y="315" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="340" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Raw Aluminum / 原色铝合金</text>
+<text x="1160" y="340" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">FRC</text>
+<rect x="673" y="353" width="46" height="38" rx="3" fill="#CFD3D6"/>
+<rect x="721" y="353" width="46" height="38" rx="3" fill="#AAB2BA"/>
+<rect x="769" y="353" width="46" height="38" rx="3" fill="#787F85"/>
+<rect x="817" y="353" width="46" height="38" rx="3" fill="#E2E6E7"/>
+<rect x="865" y="353" width="46" height="38" rx="3" fill="#1B2025"/>
+<rect x="913" y="353" width="46" height="38" rx="3" fill="#B9C1C8"/>
+<rect x="961" y="353" width="46" height="38" rx="3" fill="#969FA8"/>
+<rect x="1009" y="353" width="46" height="38" rx="3" fill="#F1F1EE"/>
+<rect x="1057" y="353" width="46" height="38" rx="3" fill="#656D74"/>
+<rect x="1105" y="353" width="46" height="38" rx="3" fill="#D8DCDF"/>
+<rect x="1153" y="353" width="46" height="38" rx="3" fill="#3C444C"/>
+<rect x="1201" y="353" width="46" height="38" rx="3" fill="#BBC2C6"/>
+<rect x="30" y="419" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="444" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Stealth Black / 隐形战机</text>
+<text x="530" y="444" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">FRC</text>
+<rect x="43" y="457" width="46" height="38" rx="3" fill="#101114"/>
+<rect x="91" y="457" width="46" height="38" rx="3" fill="#1A1D21"/>
+<rect x="139" y="457" width="46" height="38" rx="3" fill="#252A30"/>
+<rect x="187" y="457" width="46" height="38" rx="3" fill="#303740"/>
+<rect x="235" y="457" width="46" height="38" rx="3" fill="#0B0C0E"/>
+<rect x="283" y="457" width="46" height="38" rx="3" fill="#454C54"/>
+<rect x="331" y="457" width="46" height="38" rx="3" fill="#14171A"/>
+<rect x="379" y="457" width="46" height="38" rx="3" fill="#353D45"/>
+<rect x="427" y="457" width="46" height="38" rx="3" fill="#20252A"/>
+<rect x="475" y="457" width="46" height="38" rx="3" fill="#515861"/>
+<rect x="523" y="457" width="46" height="38" rx="3" fill="#171C20"/>
+<rect x="571" y="457" width="46" height="38" rx="3" fill="#3E454E"/>
+<rect x="660" y="419" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="444" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Tidal Teal / 潮汐黑青</text>
+<text x="1160" y="444" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">FRC</text>
+<rect x="673" y="457" width="46" height="38" rx="3" fill="#142127"/>
+<rect x="721" y="457" width="46" height="38" rx="3" fill="#1F3138"/>
+<rect x="769" y="457" width="46" height="38" rx="3" fill="#0C7D85"/>
+<rect x="817" y="457" width="46" height="38" rx="3" fill="#15A9AB"/>
+<rect x="865" y="457" width="46" height="38" rx="3" fill="#90BFC2"/>
+<rect x="913" y="457" width="46" height="38" rx="3" fill="#D6E5E1"/>
+<rect x="961" y="457" width="46" height="38" rx="3" fill="#121A20"/>
+<rect x="1009" y="457" width="46" height="38" rx="3" fill="#38B8B6"/>
+<rect x="1057" y="457" width="46" height="38" rx="3" fill="#486871"/>
+<rect x="1105" y="457" width="46" height="38" rx="3" fill="#257F88"/>
+<rect x="1153" y="457" width="46" height="38" rx="3" fill="#38434B"/>
+<rect x="1201" y="457" width="46" height="38" rx="3" fill="#A6CED0"/>
+<rect x="30" y="523" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="548" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Violet Circuit / 紫色电路</text>
+<text x="530" y="548" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">FRC</text>
+<rect x="43" y="561" width="46" height="38" rx="3" fill="#14151C"/>
+<rect x="91" y="561" width="46" height="38" rx="3" fill="#2C2A38"/>
+<rect x="139" y="561" width="46" height="38" rx="3" fill="#57428E"/>
+<rect x="187" y="561" width="46" height="38" rx="3" fill="#8366B8"/>
+<rect x="235" y="561" width="46" height="38" rx="3" fill="#242A2D"/>
+<rect x="283" y="561" width="46" height="38" rx="3" fill="#A7D151"/>
+<rect x="331" y="561" width="46" height="38" rx="3" fill="#191D23"/>
+<rect x="379" y="561" width="46" height="38" rx="3" fill="#6E55A5"/>
+<rect x="427" y="561" width="46" height="38" rx="3" fill="#B3A4CF"/>
+<rect x="475" y="561" width="46" height="38" rx="3" fill="#455D30"/>
+<rect x="523" y="561" width="46" height="38" rx="3" fill="#363B44"/>
+<rect x="571" y="561" width="46" height="38" rx="3" fill="#8DBE3F"/>
+<rect x="660" y="523" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="548" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">White Carbon / 白色碳纤维</text>
+<text x="1160" y="548" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">FRC</text>
+<rect x="673" y="561" width="46" height="38" rx="3" fill="#F6F7F6"/>
+<rect x="721" y="561" width="46" height="38" rx="3" fill="#12191E"/>
+<rect x="769" y="561" width="46" height="38" rx="3" fill="#3E4A50"/>
+<rect x="817" y="561" width="46" height="38" rx="3" fill="#FFFFFF"/>
+<rect x="865" y="561" width="46" height="38" rx="3" fill="#A7B2B8"/>
+<rect x="913" y="561" width="46" height="38" rx="3" fill="#252D33"/>
+<rect x="961" y="561" width="46" height="38" rx="3" fill="#E1E5E5"/>
+<rect x="1009" y="561" width="46" height="38" rx="3" fill="#151D24"/>
+<rect x="1057" y="561" width="46" height="38" rx="3" fill="#6B7980"/>
+<rect x="1105" y="561" width="46" height="38" rx="3" fill="#C4CDD0"/>
+<rect x="1153" y="561" width="46" height="38" rx="3" fill="#343C43"/>
+<rect x="1201" y="561" width="46" height="38" rx="3" fill="#EDF0EF"/>
+<rect x="30" y="627" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="652" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">White Red Gold / 经典白金红</text>
+<text x="530" y="652" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">FRC</text>
+<rect x="43" y="665" width="46" height="38" rx="3" fill="#F7F5F0"/>
+<rect x="91" y="665" width="46" height="38" rx="3" fill="#D7C8A0"/>
+<rect x="139" y="665" width="46" height="38" rx="3" fill="#C3A257"/>
+<rect x="187" y="665" width="46" height="38" rx="3" fill="#892E33"/>
+<rect x="235" y="665" width="46" height="38" rx="3" fill="#22252C"/>
+<rect x="283" y="665" width="46" height="38" rx="3" fill="#E8D9B7"/>
+<rect x="331" y="665" width="46" height="38" rx="3" fill="#FFFFFF"/>
+<rect x="379" y="665" width="46" height="38" rx="3" fill="#B94248"/>
+<rect x="427" y="665" width="46" height="38" rx="3" fill="#F1E8D3"/>
+<rect x="475" y="665" width="46" height="38" rx="3" fill="#AC884A"/>
+<rect x="523" y="665" width="46" height="38" rx="3" fill="#6D3034"/>
+<rect x="571" y="665" width="46" height="38" rx="3" fill="#CEC5B5"/>
+<rect x="660" y="627" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="652" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">White Teal / 赛博白青</text>
+<text x="1160" y="652" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">FRC</text>
+<rect x="673" y="665" width="46" height="38" rx="3" fill="#F4F5F1"/>
+<rect x="721" y="665" width="46" height="38" rx="3" fill="#DEE8E6"/>
+<rect x="769" y="665" width="46" height="38" rx="3" fill="#1A8F98"/>
+<rect x="817" y="665" width="46" height="38" rx="3" fill="#26B2B5"/>
+<rect x="865" y="665" width="46" height="38" rx="3" fill="#353B42"/>
+<rect x="913" y="665" width="46" height="38" rx="3" fill="#A5CDD0"/>
+<rect x="961" y="665" width="46" height="38" rx="3" fill="#FFFFFF"/>
+<rect x="1009" y="665" width="46" height="38" rx="3" fill="#08767F"/>
+<rect x="1057" y="665" width="46" height="38" rx="3" fill="#B7C4C6"/>
+<rect x="1105" y="665" width="46" height="38" rx="3" fill="#6A9CA0"/>
+<rect x="1153" y="665" width="46" height="38" rx="3" fill="#E5EBE8"/>
+<rect x="1201" y="665" width="46" height="38" rx="3" fill="#3B7780"/>
+<rect x="30" y="731" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="756" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Silver Blue / 协作银蓝</text>
+<text x="530" y="756" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Industrial</text>
+<rect x="43" y="769" width="46" height="38" rx="3" fill="#D9DFE1"/>
+<rect x="91" y="769" width="46" height="38" rx="3" fill="#B5BEC4"/>
+<rect x="139" y="769" width="46" height="38" rx="3" fill="#25333F"/>
+<rect x="187" y="769" width="46" height="38" rx="3" fill="#226CAB"/>
+<rect x="235" y="769" width="46" height="38" rx="3" fill="#38444E"/>
+<rect x="283" y="769" width="46" height="38" rx="3" fill="#F2F4F5"/>
+<rect x="331" y="769" width="46" height="38" rx="3" fill="#99A8B3"/>
+<rect x="379" y="769" width="46" height="38" rx="3" fill="#115280"/>
+<rect x="427" y="769" width="46" height="38" rx="3" fill="#4E7FA3"/>
+<rect x="475" y="769" width="46" height="38" rx="3" fill="#DEE4E7"/>
+<rect x="523" y="769" width="46" height="38" rx="3" fill="#56636F"/>
+<rect x="571" y="769" width="46" height="38" rx="3" fill="#C6D2DA"/>
+<rect x="660" y="731" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="756" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Cobot White / 协作机械白</text>
+<text x="1160" y="756" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Industrial</text>
+<rect x="673" y="769" width="46" height="38" rx="3" fill="#F8FAFA"/>
+<rect x="721" y="769" width="46" height="38" rx="3" fill="#D8DDE1"/>
+<rect x="769" y="769" width="46" height="38" rx="3" fill="#A8B1B8"/>
+<rect x="817" y="769" width="46" height="38" rx="3" fill="#E7EAEC"/>
+<rect x="865" y="769" width="46" height="38" rx="3" fill="#6C7881"/>
+<rect x="913" y="769" width="46" height="38" rx="3" fill="#FFFFFF"/>
+<rect x="961" y="769" width="46" height="38" rx="3" fill="#D0D6DA"/>
+<rect x="1009" y="769" width="46" height="38" rx="3" fill="#C1C8CE"/>
+<rect x="1057" y="769" width="46" height="38" rx="3" fill="#959FA6"/>
+<rect x="1105" y="769" width="46" height="38" rx="3" fill="#EFF2F1"/>
+<rect x="1153" y="769" width="46" height="38" rx="3" fill="#4D5962"/>
+<rect x="1201" y="769" width="46" height="38" rx="3" fill="#BAC3C8"/>
+<rect x="30" y="835" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="860" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Factory Orange / 工业橙灰</text>
+<text x="530" y="860" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Industrial</text>
+<rect x="43" y="873" width="46" height="38" rx="3" fill="#24272A"/>
+<rect x="91" y="873" width="46" height="38" rx="3" fill="#EF711E"/>
+<rect x="139" y="873" width="46" height="38" rx="3" fill="#E85916"/>
+<rect x="187" y="873" width="46" height="38" rx="3" fill="#45494D"/>
+<rect x="235" y="873" width="46" height="38" rx="3" fill="#C6C7C5"/>
+<rect x="283" y="873" width="46" height="38" rx="3" fill="#F7A25D"/>
+<rect x="331" y="873" width="46" height="38" rx="3" fill="#30363B"/>
+<rect x="379" y="873" width="46" height="38" rx="3" fill="#9E4719"/>
+<rect x="427" y="873" width="46" height="38" rx="3" fill="#ADB2B4"/>
+<rect x="475" y="873" width="46" height="38" rx="3" fill="#F18D38"/>
+<rect x="523" y="873" width="46" height="38" rx="3" fill="#5D6266"/>
+<rect x="571" y="873" width="46" height="38" rx="3" fill="#D9DCDD"/>
+<rect x="660" y="835" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="860" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Factory Yellow / 工业警示黄</text>
+<text x="1160" y="860" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Industrial</text>
+<rect x="673" y="873" width="46" height="38" rx="3" fill="#222529"/>
+<rect x="721" y="873" width="46" height="38" rx="3" fill="#F6C913"/>
+<rect x="769" y="873" width="46" height="38" rx="3" fill="#E5B319"/>
+<rect x="817" y="873" width="46" height="38" rx="3" fill="#3B4148"/>
+<rect x="865" y="873" width="46" height="38" rx="3" fill="#EDEBE4"/>
+<rect x="913" y="873" width="46" height="38" rx="3" fill="#FFE269"/>
+<rect x="961" y="873" width="46" height="38" rx="3" fill="#15191F"/>
+<rect x="1009" y="873" width="46" height="38" rx="3" fill="#C99917"/>
+<rect x="1057" y="873" width="46" height="38" rx="3" fill="#8D9299"/>
+<rect x="1105" y="873" width="46" height="38" rx="3" fill="#F2CD37"/>
+<rect x="1153" y="873" width="46" height="38" rx="3" fill="#5B626A"/>
+<rect x="1201" y="873" width="46" height="38" rx="3" fill="#D9DADD"/>
+<rect x="30" y="939" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="964" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Field Yellow / 户外机械黄</text>
+<text x="530" y="964" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Industrial</text>
+<rect x="43" y="977" width="46" height="38" rx="3" fill="#15191E"/>
+<rect x="91" y="977" width="46" height="38" rx="3" fill="#F4C426"/>
+<rect x="139" y="977" width="46" height="38" rx="3" fill="#DFAE1D"/>
+<rect x="187" y="977" width="46" height="38" rx="3" fill="#303840"/>
+<rect x="235" y="977" width="46" height="38" rx="3" fill="#FAD94B"/>
+<rect x="283" y="977" width="46" height="38" rx="3" fill="#A9AFB1"/>
+<rect x="331" y="977" width="46" height="38" rx="3" fill="#1D242A"/>
+<rect x="379" y="977" width="46" height="38" rx="3" fill="#D3A626"/>
+<rect x="427" y="977" width="46" height="38" rx="3" fill="#595E60"/>
+<rect x="475" y="977" width="46" height="38" rx="3" fill="#FFE16B"/>
+<rect x="523" y="977" width="46" height="38" rx="3" fill="#474F57"/>
+<rect x="571" y="977" width="46" height="38" rx="3" fill="#B8BEBD"/>
+<rect x="660" y="939" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="964" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Titanium Carbon / 钛灰碳黑</text>
+<text x="1160" y="964" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Industrial</text>
+<rect x="673" y="977" width="46" height="38" rx="3" fill="#22272E"/>
+<rect x="721" y="977" width="46" height="38" rx="3" fill="#65717A"/>
+<rect x="769" y="977" width="46" height="38" rx="3" fill="#3A434C"/>
+<rect x="817" y="977" width="46" height="38" rx="3" fill="#A4AFB4"/>
+<rect x="865" y="977" width="46" height="38" rx="3" fill="#131820"/>
+<rect x="913" y="977" width="46" height="38" rx="3" fill="#78868E"/>
+<rect x="961" y="977" width="46" height="38" rx="3" fill="#515C66"/>
+<rect x="1009" y="977" width="46" height="38" rx="3" fill="#CBD2D5"/>
+<rect x="1057" y="977" width="46" height="38" rx="3" fill="#303A45"/>
+<rect x="1105" y="977" width="46" height="38" rx="3" fill="#9CA5AA"/>
+<rect x="1153" y="977" width="46" height="38" rx="3" fill="#1E2630"/>
+<rect x="1201" y="977" width="46" height="38" rx="3" fill="#B7C0C4"/>
+<rect x="30" y="1043" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="1068" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Distinct / 清晰区分</text>
+<text x="530" y="1068" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Original</text>
+<rect x="43" y="1081" width="46" height="38" rx="3" fill="#2A638E"/>
+<rect x="91" y="1081" width="46" height="38" rx="3" fill="#CC6E46"/>
+<rect x="139" y="1081" width="46" height="38" rx="3" fill="#4F8761"/>
+<rect x="187" y="1081" width="46" height="38" rx="3" fill="#A36B9F"/>
+<rect x="235" y="1081" width="46" height="38" rx="3" fill="#D0A34A"/>
+<rect x="283" y="1081" width="46" height="38" rx="3" fill="#4D91A0"/>
+<rect x="331" y="1081" width="46" height="38" rx="3" fill="#A75F61"/>
+<rect x="379" y="1081" width="46" height="38" rx="3" fill="#748C4F"/>
+<rect x="427" y="1081" width="46" height="38" rx="3" fill="#7A77AB"/>
+<rect x="475" y="1081" width="46" height="38" rx="3" fill="#BA8460"/>
+<rect x="523" y="1081" width="46" height="38" rx="3" fill="#4C7285"/>
+<rect x="571" y="1081" width="46" height="38" rx="3" fill="#B7AA72"/>
+<rect x="660" y="1043" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="1068" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Copper / 铜金属</text>
+<text x="1160" y="1068" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Original</text>
+<rect x="673" y="1081" width="46" height="38" rx="3" fill="#594237"/>
+<rect x="721" y="1081" width="46" height="38" rx="3" fill="#775141"/>
+<rect x="769" y="1081" width="46" height="38" rx="3" fill="#996345"/>
+<rect x="817" y="1081" width="46" height="38" rx="3" fill="#BB7A4E"/>
+<rect x="865" y="1081" width="46" height="38" rx="3" fill="#D49A6F"/>
+<rect x="913" y="1081" width="46" height="38" rx="3" fill="#E3B994"/>
+<rect x="961" y="1081" width="46" height="38" rx="3" fill="#674D3D"/>
+<rect x="1009" y="1081" width="46" height="38" rx="3" fill="#9E6C54"/>
+<rect x="1057" y="1081" width="46" height="38" rx="3" fill="#BF8F6B"/>
+<rect x="1105" y="1081" width="46" height="38" rx="3" fill="#D2AC86"/>
+<rect x="1153" y="1081" width="46" height="38" rx="3" fill="#8C674B"/>
+<rect x="1201" y="1081" width="46" height="38" rx="3" fill="#B68561"/>
+<rect x="30" y="1147" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="1172" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Earth / 大地莫兰迪</text>
+<text x="530" y="1172" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Original</text>
+<rect x="43" y="1185" width="46" height="38" rx="3" fill="#494A45"/>
+<rect x="91" y="1185" width="46" height="38" rx="3" fill="#675B4C"/>
+<rect x="139" y="1185" width="46" height="38" rx="3" fill="#806D5A"/>
+<rect x="187" y="1185" width="46" height="38" rx="3" fill="#9A826B"/>
+<rect x="235" y="1185" width="46" height="38" rx="3" fill="#B8A28B"/>
+<rect x="283" y="1185" width="46" height="38" rx="3" fill="#D5C4AB"/>
+<rect x="331" y="1185" width="46" height="38" rx="3" fill="#56695D"/>
+<rect x="379" y="1185" width="46" height="38" rx="3" fill="#748474"/>
+<rect x="427" y="1185" width="46" height="38" rx="3" fill="#929E8F"/>
+<rect x="475" y="1185" width="46" height="38" rx="3" fill="#B3B7A8"/>
+<rect x="523" y="1185" width="46" height="38" rx="3" fill="#856F72"/>
+<rect x="571" y="1185" width="46" height="38" rx="3" fill="#B39A98"/>
+<rect x="660" y="1147" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="1172" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Forest / 森林绿</text>
+<text x="1160" y="1172" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Original</text>
+<rect x="673" y="1185" width="46" height="38" rx="3" fill="#163D33"/>
+<rect x="721" y="1185" width="46" height="38" rx="3" fill="#285847"/>
+<rect x="769" y="1185" width="46" height="38" rx="3" fill="#347658"/>
+<rect x="817" y="1185" width="46" height="38" rx="3" fill="#50926B"/>
+<rect x="865" y="1185" width="46" height="38" rx="3" fill="#70B18A"/>
+<rect x="913" y="1185" width="46" height="38" rx="3" fill="#A5D4AC"/>
+<rect x="961" y="1185" width="46" height="38" rx="3" fill="#416D43"/>
+<rect x="1009" y="1185" width="46" height="38" rx="3" fill="#64924D"/>
+<rect x="1057" y="1185" width="46" height="38" rx="3" fill="#83A95A"/>
+<rect x="1105" y="1185" width="46" height="38" rx="3" fill="#B9CF85"/>
+<rect x="1153" y="1185" width="46" height="38" rx="3" fill="#267C71"/>
+<rect x="1201" y="1185" width="46" height="38" rx="3" fill="#66A999"/>
+<rect x="30" y="1251" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="1276" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Graphite / 科技灰</text>
+<text x="530" y="1276" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Original</text>
+<rect x="43" y="1289" width="46" height="38" rx="3" fill="#283443"/>
+<rect x="91" y="1289" width="46" height="38" rx="3" fill="#3C5065"/>
+<rect x="139" y="1289" width="46" height="38" rx="3" fill="#516A7B"/>
+<rect x="187" y="1289" width="46" height="38" rx="3" fill="#6F8792"/>
+<rect x="235" y="1289" width="46" height="38" rx="3" fill="#98A9AF"/>
+<rect x="283" y="1289" width="46" height="38" rx="3" fill="#C1CDD0"/>
+<rect x="331" y="1289" width="46" height="38" rx="3" fill="#334653"/>
+<rect x="379" y="1289" width="46" height="38" rx="3" fill="#4A6070"/>
+<rect x="427" y="1289" width="46" height="38" rx="3" fill="#657C85"/>
+<rect x="475" y="1289" width="46" height="38" rx="3" fill="#8599A1"/>
+<rect x="523" y="1289" width="46" height="38" rx="3" fill="#A8B6C1"/>
+<rect x="571" y="1289" width="46" height="38" rx="3" fill="#596773"/>
+<rect x="660" y="1251" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="1276" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Ice / 冰川冷色</text>
+<text x="1160" y="1276" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Original</text>
+<rect x="673" y="1289" width="46" height="38" rx="3" fill="#2A516D"/>
+<rect x="721" y="1289" width="46" height="38" rx="3" fill="#3A718A"/>
+<rect x="769" y="1289" width="46" height="38" rx="3" fill="#5696AD"/>
+<rect x="817" y="1289" width="46" height="38" rx="3" fill="#7FB7C7"/>
+<rect x="865" y="1289" width="46" height="38" rx="3" fill="#B2D9E0"/>
+<rect x="913" y="1289" width="46" height="38" rx="3" fill="#D2EBEC"/>
+<rect x="961" y="1289" width="46" height="38" rx="3" fill="#357D9B"/>
+<rect x="1009" y="1289" width="46" height="38" rx="3" fill="#5DABC3"/>
+<rect x="1057" y="1289" width="46" height="38" rx="3" fill="#8ACDDB"/>
+<rect x="1105" y="1289" width="46" height="38" rx="3" fill="#B0D7E8"/>
+<rect x="1153" y="1289" width="46" height="38" rx="3" fill="#4D7598"/>
+<rect x="1201" y="1289" width="46" height="38" rx="3" fill="#90B9D4"/>
+<rect x="30" y="1355" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="1380" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Lavender / 薰衣草</text>
+<text x="530" y="1380" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Original</text>
+<rect x="43" y="1393" width="46" height="38" rx="3" fill="#47365C"/>
+<rect x="91" y="1393" width="46" height="38" rx="3" fill="#604877"/>
+<rect x="139" y="1393" width="46" height="38" rx="3" fill="#775A9A"/>
+<rect x="187" y="1393" width="46" height="38" rx="3" fill="#9874B5"/>
+<rect x="235" y="1393" width="46" height="38" rx="3" fill="#B39CD2"/>
+<rect x="283" y="1393" width="46" height="38" rx="3" fill="#D0C2E4"/>
+<rect x="331" y="1393" width="46" height="38" rx="3" fill="#545A9A"/>
+<rect x="379" y="1393" width="46" height="38" rx="3" fill="#767BC1"/>
+<rect x="427" y="1393" width="46" height="38" rx="3" fill="#9A9ED8"/>
+<rect x="475" y="1393" width="46" height="38" rx="3" fill="#C0B7EA"/>
+<rect x="523" y="1393" width="46" height="38" rx="3" fill="#805A8D"/>
+<rect x="571" y="1393" width="46" height="38" rx="3" fill="#A77EA9"/>
+<rect x="660" y="1355" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="1380" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Neon / 霓虹科技</text>
+<text x="1160" y="1380" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Original</text>
+<rect x="673" y="1393" width="46" height="38" rx="3" fill="#164657"/>
+<rect x="721" y="1393" width="46" height="38" rx="3" fill="#156B88"/>
+<rect x="769" y="1393" width="46" height="38" rx="3" fill="#0E9BAA"/>
+<rect x="817" y="1393" width="46" height="38" rx="3" fill="#28C4B7"/>
+<rect x="865" y="1393" width="46" height="38" rx="3" fill="#64E4C5"/>
+<rect x="913" y="1393" width="46" height="38" rx="3" fill="#91EAD7"/>
+<rect x="961" y="1393" width="46" height="38" rx="3" fill="#5B43A0"/>
+<rect x="1009" y="1393" width="46" height="38" rx="3" fill="#7859C2"/>
+<rect x="1057" y="1393" width="46" height="38" rx="3" fill="#9F76D1"/>
+<rect x="1105" y="1393" width="46" height="38" rx="3" fill="#C49CE0"/>
+<rect x="1153" y="1393" width="46" height="38" rx="3" fill="#3978BE"/>
+<rect x="1201" y="1393" width="46" height="38" rx="3" fill="#5DA8E8"/>
+<rect x="30" y="1459" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="1484" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Ocean / 海洋蓝</text>
+<text x="530" y="1484" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Original</text>
+<rect x="43" y="1497" width="46" height="38" rx="3" fill="#123A5B"/>
+<rect x="91" y="1497" width="46" height="38" rx="3" fill="#176078"/>
+<rect x="139" y="1497" width="46" height="38" rx="3" fill="#1B8198"/>
+<rect x="187" y="1497" width="46" height="38" rx="3" fill="#35A7B6"/>
+<rect x="235" y="1497" width="46" height="38" rx="3" fill="#6CC4C5"/>
+<rect x="283" y="1497" width="46" height="38" rx="3" fill="#A4DDDA"/>
+<rect x="331" y="1497" width="46" height="38" rx="3" fill="#245A91"/>
+<rect x="379" y="1497" width="46" height="38" rx="3" fill="#2D86B1"/>
+<rect x="427" y="1497" width="46" height="38" rx="3" fill="#52A5D1"/>
+<rect x="475" y="1497" width="46" height="38" rx="3" fill="#8CC9E2"/>
+<rect x="523" y="1497" width="46" height="38" rx="3" fill="#196C7A"/>
+<rect x="571" y="1497" width="46" height="38" rx="3" fill="#4B93A5"/>
+<rect x="660" y="1459" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="1484" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Pastel / 柔和混色</text>
+<text x="1160" y="1484" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Original</text>
+<rect x="673" y="1497" width="46" height="38" rx="3" fill="#A9C5E8"/>
+<rect x="721" y="1497" width="46" height="38" rx="3" fill="#A9D8D2"/>
+<rect x="769" y="1497" width="46" height="38" rx="3" fill="#BAD5A9"/>
+<rect x="817" y="1497" width="46" height="38" rx="3" fill="#E2D39F"/>
+<rect x="865" y="1497" width="46" height="38" rx="3" fill="#E9B7B1"/>
+<rect x="913" y="1497" width="46" height="38" rx="3" fill="#C9B5DD"/>
+<rect x="961" y="1497" width="46" height="38" rx="3" fill="#8AB6D1"/>
+<rect x="1009" y="1497" width="46" height="38" rx="3" fill="#B8DCC9"/>
+<rect x="1057" y="1497" width="46" height="38" rx="3" fill="#D0D9AF"/>
+<rect x="1105" y="1497" width="46" height="38" rx="3" fill="#F0CDB2"/>
+<rect x="1153" y="1497" width="46" height="38" rx="3" fill="#D7ACCA"/>
+<rect x="1201" y="1497" width="46" height="38" rx="3" fill="#ADB8DB"/>
+<rect x="30" y="1563" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="43" y="1588" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Rose / 玫瑰粉</text>
+<text x="530" y="1588" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Original</text>
+<rect x="43" y="1601" width="46" height="38" rx="3" fill="#6B344D"/>
+<rect x="91" y="1601" width="46" height="38" rx="3" fill="#924662"/>
+<rect x="139" y="1601" width="46" height="38" rx="3" fill="#B75879"/>
+<rect x="187" y="1601" width="46" height="38" rx="3" fill="#D47591"/>
+<rect x="235" y="1601" width="46" height="38" rx="3" fill="#E99BB1"/>
+<rect x="283" y="1601" width="46" height="38" rx="3" fill="#F3C3D1"/>
+<rect x="331" y="1601" width="46" height="38" rx="3" fill="#AE526F"/>
+<rect x="379" y="1601" width="46" height="38" rx="3" fill="#C56B88"/>
+<rect x="427" y="1601" width="46" height="38" rx="3" fill="#D88FAA"/>
+<rect x="475" y="1601" width="46" height="38" rx="3" fill="#EBB7C7"/>
+<rect x="523" y="1601" width="46" height="38" rx="3" fill="#8B4D64"/>
+<rect x="571" y="1601" width="46" height="38" rx="3" fill="#CA7A93"/>
+<rect x="660" y="1563" width="610" height="91" rx="12" fill="#142134" stroke="#304154"/>
+<text x="673" y="1588" font-size="16" fill="#ecf3fc" font-family="Arial, sans-serif">Sunset / 日落暖色</text>
+<text x="1160" y="1588" font-size="11" fill="#9fbbd9" font-family="Arial, sans-serif">Original</text>
+<rect x="673" y="1601" width="46" height="38" rx="3" fill="#7D3347"/>
+<rect x="721" y="1601" width="46" height="38" rx="3" fill="#B4444A"/>
+<rect x="769" y="1601" width="46" height="38" rx="3" fill="#D15D49"/>
+<rect x="817" y="1601" width="46" height="38" rx="3" fill="#E88147"/>
+<rect x="865" y="1601" width="46" height="38" rx="3" fill="#F5A35D"/>
+<rect x="913" y="1601" width="46" height="38" rx="3" fill="#F8C585"/>
+<rect x="961" y="1601" width="46" height="38" rx="3" fill="#9E4E74"/>
+<rect x="1009" y="1601" width="46" height="38" rx="3" fill="#C86C6D"/>
+<rect x="1057" y="1601" width="46" height="38" rx="3" fill="#DC8460"/>
+<rect x="1105" y="1601" width="46" height="38" rx="3" fill="#E9A779"/>
+<rect x="1153" y="1601" width="46" height="38" rx="3" fill="#AB5A44"/>
+<rect x="1201" y="1601" width="46" height="38" rx="3" fill="#F2BAA1"/>
+</svg>
