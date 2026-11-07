@@ -1,0 +1,23 @@
+name: Assembly M1 read-only tests
+on:
+  push:
+    paths:
+      - 'assembly-app/**'
+      - 'palettes.json'
+      - '.github/workflows/assembly-m1.yml'
+  pull_request:
+    paths:
+      - 'assembly-app/**'
+      - 'palettes.json'
+      - '.github/workflows/assembly-m1.yml'
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test assembly-app/test/*.test.mjs
