@@ -1,0 +1,24 @@
+{
+  "rootAssembly": {
+    "documentId": "aaaaaaaaaaaaaaaaaaaaaaaa",
+    "elementId": "bbbbbbbbbbbbbbbbbbbbbbbb",
+    "instances": [
+      {"id":"frame-1","type":"Part","name":"Frame <1>","partId":"frame","documentId":"111111111111111111111111","elementId":"111111111111111111111112","documentMicroversion":"v1"},
+      {"id":"frame-2","type":"Part","name":"Frame <2>","partId":"frame","documentId":"111111111111111111111111","elementId":"111111111111111111111112","documentMicroversion":"v1"},
+      {"id":"motor-module","type":"Assembly","name":"Drive Module","documentId":"222222222222222222222222","elementId":"222222222222222222222223","documentMicroversion":"v2"},
+      {"id":"std","type":"Part","name":"Bolt","isStandardContent":true,"partId":"std","documentId":"111111111111111111111111","elementId":"111111111111111111111112"},
+      {"id":"skip","type":"Part","name":"Suppressed","suppressed":true,"partId":"skip","documentId":"111111111111111111111111","elementId":"111111111111111111111112"}
+    ]
+  },
+  "subAssemblies": [
+    {"documentId":"222222222222222222222222","elementId":"222222222222222222222223","documentMicroversion":"v2","instances":[
+      {"id":"motor","type":"Part","name":"Drive Motor","partId":"m1","documentId":"333333333333333333333333","elementId":"333333333333333333333334","documentMicroversion":"v3"},
+      {"id":"spacer","type":"Part","name":"Spacer","partId":"s1","documentId":"333333333333333333333333","elementId":"333333333333333333333334","documentMicroversion":"v3"}
+    ]}
+  ],
+  "occurrences": [
+    {"path":["frame-1"]}, {"path":["frame-2"]},
+    {"path":["motor-module", "motor"]}, {"path":["motor-module", "spacer"]},
+    {"path":["std"]}, {"path":["skip"]}, {"path":["unknown"]}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "onshape-palette-studio-assembly",
+  "private": true,
+  "version": "0.3.0-alpha.1",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "description": "Read-only Onshape Assembly palette planning prototype"
+}
