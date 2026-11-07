@@ -2,6 +2,8 @@
 
 一个无需 API Key、无需浏览器注入的 **Onshape 原生 FeatureScript 配色工具**。
 
+![Palette overview](preview/palette-swatches.svg)
+
 **本版本能力：**12 套色系 × 每套 12 个颜色 × 4 种分配模式 × 8 个可复现的变化配置；可以一次给当前 Part Studio 中的所有实心零件，或所选零件批量上色。改变该 Feature 的参数，就能重新给零件分配协调色。仅改变外观，不修改模型几何、材料、质量属性或配合关系。
 
 ## 安装：在 Onshape 中（不是在本地运行 `.fs` 文件）
