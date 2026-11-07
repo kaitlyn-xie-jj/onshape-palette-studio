@@ -14,6 +14,10 @@ h1 { font-size: clamp(32px, 5vw, 54px); letter-spacing: -2px; margin: 4px 0 10px
 .lead { color: #adbfd1; max-width: 650px; line-height: 1.7; margin: 0; }
 .tag { border: 1px solid #375572; border-radius: 30px; padding: 10px 14px; font-size: 12px; color: #b7cde4; white-space: nowrap; }
 .section-title { font-size: 15px; font-weight: 700; color: #dce9f8; margin: 28px 0 14px; }
+.filters { display:flex; flex-wrap:wrap; gap:9px; margin:0 0 16px; }
+.filter { background:#142337; color:#afc4dc; border:1px solid #344e69; border-radius:999px; padding:9px 15px; font-size:12px; font-weight:700; cursor:pointer; }
+.filter.active { color:#09233c; background:#b6dfff; border-color:#b6dfff; }
+.theme-badge { color:#8fb5d4; font-weight:600; font-size:10px; text-transform:uppercase; margin-bottom:6px; display:block; letter-spacing:.08em; }
 .theme-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 11px; }
 .theme { border: 1px solid #2b405a; background: #111d2d; border-radius: 14px; padding: 13px; color: #d5e3f3; text-align: left; cursor: pointer; transition: border-color .15s ease, background .15s ease; }
 .theme:hover { border-color: #6f9ccb; } .theme.active { border-color: #80c8fb; box-shadow: inset 0 0 0 1px #80c8fb; background: #16283c; }
@@ -39,6 +43,9 @@ canvas { display: none; }
 .part code { color: #d8e5f7; }
 .swatches { padding: 0 24px 24px; display: flex; gap: 7px; flex-wrap: wrap; }
 .swatch { width: 47px; height: 47px; border: 2px solid #ffffff55; border-radius: 9px; cursor: pointer; }
+.palette-details { padding:14px 22px 18px; display:grid; gap:5px; border-bottom:1px solid #293c52; }
+.palette-description { font-size:13px; color:#c8d8e7; line-height:1.6; }
+.source-link { font-size:12px; color:#89c8ed; width:fit-content; }
 .help { border: 1px solid #30445a; background: #142236; padding: 17px 20px; margin-top: 18px; border-radius: 12px; color: #b6cce1; line-height: 1.8; font-size: 13px; }
 .help strong { color: #fff; }
 .footer { color: #8194a8; font-size: 12px; margin-top: 15px; }
@@ -47,30 +54,45 @@ canvas { display: none; }
 </style>
 </head>
 <body><main class="wrapper">
-<header><div><div class="eyebrow">ONSHAPE CUSTOM FEATURE • PALETTE STUDIO V0.1</div><h1>Make parts feel <em>cohesive.</em></h1><p class="lead">为 Onshape 零件生成协调但有区别的颜色。选择色系与排列方式，然后在原生 FeatureScript 工具中使用相同设置。</p></div><div class="tag">12 THEMES · 144 COLORS</div></header>
-<div class="section-title">01 / 选择色系</div><div class="theme-grid" id="themes"></div>
+<header><div><div class="eyebrow">ONSHAPE CUSTOM FEATURE • PALETTE STUDIO V0.2</div><h1>Make parts feel <em>cohesive.</em></h1><p class="lead">FRC 经典机器人配色、工业机器人配色，以及原有柔和渐变。在这里浏览完整配色并在原生 FeatureScript 中应用。</p></div><div class="tag">30 THEMES · 360 COLORS</div></header>
+<div class="section-title">01 / 选择色系 <span class="note" id="visible-count"></span></div><div class="filters" id="filters"></div><div class="theme-grid" id="themes"></div>
 <div class="section-title">02 / 改变组合</div>
 <div class="toolbar">
-<label class="control">排列方式<select id="arrangement"><option value="GRADIENT">Soft gradient / 渐变</option><option value="ALTERNATE">Alternating tones / 交替深浅</option><option value="SPREAD">Spread out tones / 跨度更大</option><option value="REVERSE">Reverse gradient / 反向</option></select></label>
+<label class="control">排列方式<select id="arrangement"><option value="GRADIENT">Designed order / 设计原序</option><option value="ALTERNATE">Alternating tones / 交替深浅</option><option value="SPREAD">Spread out tones / 跨度更大</option><option value="REVERSE">Reverse gradient / 反向</option></select></label>
 <label class="control">Variation<select id="variation"></select></label>
 <button class="action primary" id="next">生成新组合 ↻</button>
 <button class="action" id="export">导出当前色表 CSV</button>
 </div>
-<div class="panel"><div class="panel-heading"><h2 id="heading">Assembly color preview</h2><span class="note">点击色卡复制 HEX</span></div><div class="parts-grid" id="parts"></div><div class="swatches" id="swatches"></div></div>
+<div class="panel"><div class="panel-heading"><h2 id="heading">Assembly color preview</h2><span class="note">点击色卡复制 HEX</span></div><div class="palette-details"><div id="palette-description" class="palette-description"></div><a id="source-link" class="source-link" href="#" target="_blank" rel="noopener noreferrer" hidden>查看参考来源</a></div><div class="parts-grid" id="parts"></div><div class="swatches" id="swatches"></div></div>
 <div class="help"><strong>实际应用到 Onshape：</strong>在 Part Studio 添加随包附带的 <code>palette_studio.fs</code> 作为自定义 Feature。选择同一 Palette、Arrangement、Variation 后确认，零件即批量上色；这些颜色会继承到引用它们的 Assembly 中。本页面只负责预览，不会连接或修改 Onshape 文档。</div>
-<div class="footer">Generated palettes are deterministic. Changing source part appearances does not alter CAD geometry, mates, or material properties. Existing face-level appearance may override a part-level color.</div>
+<div class="footer">Generated palettes are deterministic. The colors are design interpretations, not official team or company HEX values. Changing source part appearances does not alter CAD geometry, mates, or material properties. Existing face-level appearance may override a part-level color.</div>
 </main>
 <script id="palette-data" type="application/json">__PALETTE_DATA__</script>
 <script>
 const palettes = JSON.parse(document.getElementById('palette-data').textContent);
 const variants = [0,1,3,5,7,9,10,11];
-const state = { theme: 'OCEAN', arrangement: 'GRADIENT', variation: 0 };
-const names = Object.keys(palettes);
+const state = { theme: 'MONOCHROME', arrangement: 'GRADIENT', variation: 0, filter: 'FRC' };
+const categories = ['FRC', 'Industrial', 'Original'];
+const categoryNames = {FRC:'FRC / 竞赛风格',Industrial:'Industrial / 工业机器人',Original:'Original / 原有色系'};
+const names = Object.keys(palettes).sort((a,b)=>categories.indexOf(palettes[a].category)-categories.indexOf(palettes[b].category) || a.localeCompare(b));
+function renderFilters(){
+ const choices=['All',...categories];
+ document.getElementById('filters').innerHTML=choices.map(k=>{
+   const count=k==='All'?names.length:names.filter(key=>palettes[key].category===k).length;
+   const label=k==='All'?'全部配色':categoryNames[k];
+   return `<button class="filter ${k===state.filter?'active':''}" data-filter="${k}" aria-pressed="${k===state.filter}">${label} · ${count}</button>`;
+ }).join('');
+}
 function indexFor(i) {const shift = variants[state.variation], n=12; switch(state.arrangement){case 'ALTERNATE':return (i*5+shift)%n; case 'SPREAD':return (i*7+shift)%n; case 'REVERSE':return n-1-((i+shift)%n); default:return (i+shift)%n;}}
-function renderThemes() {document.getElementById('themes').innerHTML=names.map(k=>`<button class="theme ${k===state.theme?'active':''}" data-theme="${k}" aria-pressed="${k===state.theme}"><span class="theme-name">${palettes[k].name}</span><span class="mini-colors">${palettes[k].colors.slice(0,12).map(c=>`<span style="background:${c}"></span>`).join('')}</span></button>`).join('');}
-function render(){renderThemes(); const p=palettes[state.theme]; document.getElementById('heading').textContent=p.name+' · 12 parts'; const colors=Array.from({length:12},(_,i)=>p.colors[indexFor(i)]);document.getElementById('parts').innerHTML=colors.map((c,i)=>`<div class="part"><div class="sample" style="background:${c}"></div><small><span>Part ${String(i+1).padStart(2,'0')}</span><code>${c}</code></small></div>`).join('');document.getElementById('swatches').innerHTML=colors.map(c=>`<button title="Copy ${c}" class="swatch" data-hex="${c}" style="background:${c}" aria-label="Copy ${c}"></button>`).join('');document.getElementById('variation').value=String(state.variation);}
+function renderThemes(){
+ const shown=names.filter(k=>state.filter==='All'||palettes[k].category===state.filter);
+ document.getElementById('visible-count').textContent=shown.length+' palettes';
+ document.getElementById('themes').innerHTML=shown.map(k=>`<button class="theme ${k===state.theme?'active':''}" data-theme="${k}" aria-pressed="${k===state.theme}"><span class="theme-badge">${palettes[k].category}</span><span class="theme-name">${palettes[k].name}</span><span class="mini-colors">${palettes[k].colors.slice(0,12).map(c=>`<span style="background:${c}"></span>`).join('')}</span></button>`).join('');
+}
+function render(){renderFilters();renderThemes(); const p=palettes[state.theme]; document.getElementById('palette-description').textContent=p.description || ''; const link=document.getElementById('source-link');link.hidden=!p.source;if(p.source)link.href=p.source; document.getElementById('heading').textContent=p.name+' · 12 parts'; const colors=Array.from({length:12},(_,i)=>p.colors[indexFor(i)]);document.getElementById('parts').innerHTML=colors.map((c,i)=>`<div class="part"><div class="sample" style="background:${c}"></div><small><span>Part ${String(i+1).padStart(2,'0')}</span><code>${c}</code></small></div>`).join('');document.getElementById('swatches').innerHTML=colors.map(c=>`<button title="Copy ${c}" class="swatch" data-hex="${c}" style="background:${c}" aria-label="Copy ${c}"></button>`).join('');document.getElementById('variation').value=String(state.variation);}
 for(let i=0;i<8;i++){let o=document.createElement('option');o.value=String(i);o.textContent='Variation '+(i+1);document.getElementById('variation').append(o);}
 document.getElementById('themes').addEventListener('click',e=>{const t=e.target.closest('[data-theme]');if(t){state.theme=t.dataset.theme;render();}});
+document.getElementById('filters').addEventListener('click',e=>{const f=e.target.closest('[data-filter]');if(!f)return;state.filter=f.dataset.filter;if(state.filter!=='All' && palettes[state.theme].category!==state.filter){state.theme=names.find(k=>palettes[k].category===state.filter);}render();});
 document.getElementById('swatches').addEventListener('click',async e=>{const t=e.target.closest('[data-hex]');if(!t)return;const v=t.dataset.hex;try{await navigator.clipboard.writeText(v);t.title='已复制 '+v;}catch(e){prompt('复制颜色代码',v);}});
 document.getElementById('arrangement').addEventListener('change',e=>{state.arrangement=e.target.value;render();});
 document.getElementById('variation').addEventListener('change',e=>{state.variation=Number(e.target.value);render();});
