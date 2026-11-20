@@ -4,6 +4,9 @@ on:
   push:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -16,3 +19,7 @@ jobs:
           python-version: '3.12'
       - name: Run offline tests
         run: python -m unittest discover -s tests -v
+      - name: Verify generated assets are reproducible
+        run: |
+          python build.py
+          git diff --exit-code -- src/palette_studio.fs preview/palette-preview.html preview/palette-gallery.svg
